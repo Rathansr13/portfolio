@@ -225,13 +225,16 @@ nav{
 /* ----- FEATURED IMAGE BOX ----- */
 .featured-image{
     display: flex;
+    background: transparent;
     justify-content: right;
     align-content: center;
+    border-radius: 50%;
     min-height: 80vh;
     width: 50%;
 }
 .image{
     margin: auto 0;
+    background: transparent;
     width: 380px;
     height: 380px;
     animation: imgFloat 7s ease-in-out infinite;
@@ -588,8 +591,8 @@ footer{
         margin-top: 65px;
     }
     .image, .image img{
-        width: 150px;
-        height: 150px;
+        width: 210px;
+        height: 210px;
     }
     .row{
         display: flex;
